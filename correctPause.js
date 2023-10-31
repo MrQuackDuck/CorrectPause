@@ -1,4 +1,4 @@
-console.log("Correct Pause v1.1 - Started Successfully");
+console.log("Correct Pause v1.2 - Started Successfully");
 
 window.onkeyup = keyUpHandler;
 window.onkeydown = keyDownHandler;
