@@ -1,21 +1,30 @@
-console.log("Correct Pause v1.2 - Started Successfully");
+console.log("Correct Pause v1.3 - Started Successfully");
 
 window.onkeyup = keyUpHandler;
 window.onkeydown = keyDownHandler;
 
 let latestAction;
-let focused = false;
 
-document.querySelector('.ytd-searchbox').addEventListener('focus', function(event) {
-  focused = true;
-}, true);
+// Elements on which if focused pressing space won't play/pause the video
+let forbiddenElements = ['ytd-searchbox', 'contenteditable-root']
 
-document.querySelector('.ytd-searchbox').addEventListener('blur', function(event) {
-  focused = false;
-}, true);
+// Determines if play/pause is allowed (e.g: when typing in search or comments)
+function isSpaceAllowed() {
+  forbiddenElements.forEach(e => {
+  });
+
+  for (let i = 0; i < forbiddenElements.length; i++) {
+    let element = forbiddenElements[i];
+    if (document.activeElement.className === element 
+      || document.activeElement.id === element) return false;
+  }
+
+  return true;
+}
 
 function keyUpHandler(e) {
-  if (focused) return;
+  if (!isSpaceAllowed()) return;
+
   let vid = document.querySelector('video');
   const key = e.code;
 
@@ -26,7 +35,8 @@ function keyUpHandler(e) {
 }
 
 function keyDownHandler(e) {
-  if (focused) return;
+  if (!isSpaceAllowed()) return;
+
   let vid = document.querySelector('video');
   const key = e.code;
 

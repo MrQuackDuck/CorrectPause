@@ -1,13 +1,13 @@
 {
     "manifest_version": 2,
     "name": "Correct Pause",
-    "version": "1.2",
+    "version": "1.3",
 
     "permissions": [
       "*://youtube.com/*"
     ],
 
-    "description": "Browser extension to fix YouTube pause function",
+    "description": "Extension to fix YouTube Spacebar play/pause function",
   
     "icons": {
       "32": "icons/correctPause-32.png",
