@@ -6,7 +6,8 @@ window.onkeydown = keyDownHandler;
 let latestAction;
 
 // Elements on which if focused pressing space won't play/pause the video
-let forbiddenElements = ['ytd-searchbox', 'contenteditable-root']
+let forbiddenElements = ['ytd-searchbox', 'contenteditable-root', 'gsfi ytd-searchbox', 'style-scope yt-formatted-string', 'search']
+
 
 // Determines if play/pause is allowed (e.g: when typing in search or comments)
 function isSpaceAllowed() {
