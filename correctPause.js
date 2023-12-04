@@ -1,4 +1,4 @@
-console.log("Correct Pause v1.4 - Started Successfully");
+console.log("Correct Pause v1.5 - Started Successfully");
 
 window.onkeyup = keyUpHandler;
 window.onkeydown = keyDownHandler;
@@ -6,7 +6,7 @@ window.onkeydown = keyDownHandler;
 let latestAction;
 
 // Elements on which if focused pressing space won't play/pause the video
-let forbiddenElements = ['ytd-searchbox', 'contenteditable-root', 'gsfi ytd-searchbox', 'style-scope yt-formatted-string', 'search']
+let forbiddenElements = ['ytd-searchbox', 'contenteditable-root', 'gsfi ytd-searchbox', 'style-scope yt-formatted-string', 'search', 'style-scope tp-yt-paper-input']
 
 
 // Determines if play/pause is allowed (e.g: when typing in search or comments)
