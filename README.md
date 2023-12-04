@@ -7,7 +7,7 @@ You can get it here: https://addons.mozilla.org/en-US/firefox/addon/correct-paus
 <br>
 
 <h3>For Chrome users</h3>
-I'd also like to publish this extension to Chrome store, but it will cost me $5 (I don't want to pay for fixing their's issues)
-<br><br>
+I found a person who helped to upload this extension for Chrome browser as well.
 
-You still can run the script from **correctPause.js** by using an extension like [**Tampermonkey**](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) or others
+You can download it [here](https://chrome.google.com/webstore/detail/bcbjldkfkgpipahfcghnjcmcjnhmigpg) (Chrome Store).<br><br>
+Special thanks to [Aljoberg](https://github.com/Aljoberg) :)
