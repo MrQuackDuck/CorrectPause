@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Correct Pause",
-    "version": "1.5",
+    "version": "1.6",
 
     "permissions": [
       "*://youtube.com/*"
@@ -18,7 +18,7 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.youtube.com/*"],
+        "matches": ["*://www.youtube.com/*"],
         "js": ["correctPause.js"]
       }
     ],
