@@ -2,7 +2,7 @@
 
 **Firefox** extension to fix YouTube [Spacebar] issue _(play/pause video after Alt+Tab)_
 
-You can get it here: https://addons.mozilla.org/en-US/firefox/addon/correct-pause/
+You can get it here: https://addons.mozilla.org/firefox/addon/correct-pause/
 
 <br>
 
