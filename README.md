@@ -5,16 +5,13 @@
   <a href="https://chromewebstore.google.com/detail/correct-pause/bcbjldkfkgpipahfcghnjcmcjnhmigpg"><img src="https://img.shields.io/badge/Chrome-Store-blue" /></a>
 </p>
 
-**Firefox** extension to fix YouTube [Spacebar] issue _(play/pause video after Alt+Tab)_
-
-You can get it here: https://addons.mozilla.org/firefox/addon/correct-pause/
-
+**Firefox** extension to fix YouTube [Spacebar] issue _(play/pause video after Alt+Tab)_ <br>
+You can get it from here: https://addons.mozilla.org/firefox/addon/correct-pause/
 <br>
 
-<h2>For Chrome users</h2>
+<h2>💙 For Chrome users</h2>
 I found a person who helped to upload this extension for <b>Chrome</b> browser as well.
 
-You can download it [here](https://chrome.google.com/webstore/detail/bcbjldkfkgpipahfcghnjcmcjnhmigpg) (Chrome Store).<br><br>
-Special thanks for this to [Aljoberg](https://github.com/Aljoberg) :)
-
+You can download it [here](https://chrome.google.com/webstore/detail/bcbjldkfkgpipahfcghnjcmcjnhmigpg) (Chrome Store)<br><br>
+Special thanks for this to [Aljoberg](https://github.com/Aljoberg) :) <br>
 Privacy and policy are displayed [here](https://justempire.net/en/service/14/correct-youtube-pause?categories=11,9,7&searchString=)
